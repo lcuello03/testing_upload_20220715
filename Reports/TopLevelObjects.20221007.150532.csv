@@ -1,0 +1,13 @@
+PartitionKey,FileType,ObjectName,HighLevelObject,ObjectDb,FileName,LineNumber,LinesOfCode,HighestEWISeverity,ConversionStatus,EWIs,UDFsUsed,NameOfUDFFiles,CharConversionPercentage,LoCConversionPercentage,EWIsNumber,ObjectDB,CharacterCount
+37304f2a-4135-4e38-ac07-3fe3bb6a3abe,SQL,TABLE0,CREATE TABLE,Undefined DB name,CLI_T12/CLI/CustomizeNames/SQL_BasicSample.sql,1,7,,Fully Converted,,,,--,100%,0,,
+37304f2a-4135-4e38-ac07-3fe3bb6a3abe,SQL,TABLE1,CREATE TABLE,Undefined DB name,CLI_T12/CLI/CustomizeNames/SQL_BasicSample.sql,9,5,Low,Fully Converted,MSCEWI2065,,,--,100%,1,,
+37304f2a-4135-4e38-ac07-3fe3bb6a3abe,SQL,TABLE2,CREATE TABLE,Undefined DB name,CLI_T12/CLI/CustomizeNames/SQL_BasicSample.sql,15,5,,Fully Converted,,,,--,100%,0,,
+37304f2a-4135-4e38-ac07-3fe3bb6a3abe,SQL,ERROR1,CREATE / REPLACE PROCEDURE,PROC,CLI_T12/CLI/CustomizeNames/SQL_BasicSample.sql,22,6,,Fully Converted,,,,--,100%,0,,
+37304f2a-4135-4e38-ac07-3fe3bb6a3abe,SQL,ERROR2,CREATE / REPLACE PROCEDURE,PROC,CLI_T12/CLI/CustomizeNames/SQL_BasicSample.sql,30,4,,Fully Converted,,,,--,100%,0,,
+37304f2a-4135-4e38-ac07-3fe3bb6a3abe,SQL,DYNAMIC_RESULT_SETS,CREATE / REPLACE PROCEDURE,SNOWCONVERT,CLI_T12/CLI/CustomizeNames/SQL_BasicSample.sql,36,8,,Fully Converted,,,,--,100%,0,,
+37304f2a-4135-4e38-ac07-3fe3bb6a3abe,SQL,JoinName,CREATE JOIN INDEX,DataBaseName1,CLI_T12/CLI/CustomizeNames/SQL_BasicSample.sql,45,3,,Fully Converted,,,,--,100%,0,,
+37304f2a-4135-4e38-ac07-3fe3bb6a3abe,SQL,new_emp1oyee,CREATE MACRO,Undefined DB name,CLI_T12/CLI/CustomizeNames/SQL_BasicSample.sql,49,13,Low,Fully Converted,MSCEWI1022,,,--,100%,1,,
+37304f2a-4135-4e38-ac07-3fe3bb6a3abe,SQL,calc1,CREATE FUNCTION,Undefined DB name,CLI_T12/CLI/CustomizeNames/SQL_BasicSample.sql,63,13,,Fully Converted,,,,--,100%,0,,
+37304f2a-4135-4e38-ac07-3fe3bb6a3abe,SQL,myudf,CREATE FUNCTION,test,CLI_T12/CLI/CustomizeNames/SQL_BasicSample.sql,77,11,Medium,Partially Converted,MSCEWI1020 | MSCEWI2053 | MSCEWI1031,PERIOD_END_UDF,PERIOD_UDF.sql,--,90.91%,3,,
+37304f2a-4135-4e38-ac07-3fe3bb6a3abe,SQL,JAVA$CLASS$MD5$TABLE,CREATE / REPLACE VIEW,ZAI_P_Source,CLI_T12/CLI/CustomizeNames/SQL_BasicSample.sql,89,19,Low,Partially Converted,MSCEWI1050,,,--,36.84%,3,,
+37304f2a-4135-4e38-ac07-3fe3bb6a3abe,SQL,NEWVIEW,CREATE / REPLACE VIEW,PUBLIC,CLI_T12/CLI/CustomizeNames/SQL_BasicSample.sql,109,8,,Partially Converted,,,,--,87.5%,1,,

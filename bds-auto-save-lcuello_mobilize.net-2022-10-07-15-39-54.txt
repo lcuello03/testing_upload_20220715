@@ -1,0 +1,17 @@
+?? .gitignore
+?? Logs/ConversionLog.20221007.150532.log
+?? Logs/GenericInfrastructureController/Controller-Log-20221007.150529.log
+?? Logs/SnowConvert-Log-20221007.150532.log
+?? Reports/Assessment.20221007.150532.csv
+?? Reports/Assessment.20221007.150532.docx
+?? Reports/Assessment.20221007.150532.html
+?? Reports/Elements.20221007.150532.csv
+?? Reports/Issues.20221007.150532.csv
+?? Reports/Lineage.20221007.150532.csv
+?? Reports/Summary.20221007.150532.csv
+?? Reports/TopLevelObjects.20221007.150532.csv
+?? Reports/TopLevelQueries.20221007.150532.csv
+?? Target/CLI_T12/CLI/CustomizeNames/SQL_BasicSample.sql
+?? Target/UDF Helpers/PERIOD_UDF.sql
+?? Target/UDF Helpers/STUBS_UDF.sql
+?? bds-auto-save-lcuello_mobilize.net-2022-10-07-15-39-54.txt
